@@ -225,13 +225,6 @@ span.homeLibraryText {
     font-size: 1.3em;
 }
 
-/* Color and style changes for the dark theme type*/
-:root {--selection: 170, 95, 200;}
-
-.backgroundContainer.withBackdrop {
-    background-color: rgba(0, 0, 0, 0);
-}
-
 /* Dashboard*/
 
 #user_usage_report_table,
@@ -350,6 +343,11 @@ progress::-webkit-progress-value {
 /*Modify subtitle settings page*/
 .subtitleappearance-preview {
   background: linear-gradient(140deg,#444,#111) !important;
+}
+
+/*Affects blurhash to remove the saturated colors to fit overall look*/
+.blurhash-canvas {
+	filter: opacity(60%) saturate(60%);
 }
 
 /*Dash and general UI styling*/
@@ -1738,6 +1736,9 @@ progress::-webkit-progress-value {
     transform: scale(1.05);
     transition: transform 1s ease;
 }
+
+/*Style backdrop*/
+.backdropImage {filter: blur(0px) saturate(120%) contrast(130%) brightness(100%);}
 
 
 /* Center the listItem content */
