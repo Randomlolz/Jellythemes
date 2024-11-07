@@ -12,14 +12,6 @@
     height: auto !important;
 }
 
-/* Backdrop */
-.backgroundContainer {
-    background: url(https://i.imgur.com/dGBenC7.jpeg) center top no-repeat #030322;
-    -webkit-background-size: cover;
-    background-size: cover;
-	opacity: 0.2;
-}
-
 .itemsContainer.padded-left {
     position: top;
     z-index: 1;
