@@ -217,8 +217,6 @@ span.homeLibraryText {
     font-size: 1.3em;
 }
 
-/* Color and style changes for the dark theme type*/
-:root {--selection: 170, 95, 200;}
 
 .backgroundContainer.withBackdrop {
     background-color: rgba(0, 0, 0, 0);
