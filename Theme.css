@@ -352,11 +352,6 @@ progress::-webkit-progress-value {
   background: linear-gradient(140deg,#444,#111) !important;
 }
 
-/*Affects blurhash to remove the saturated colors to fit overall look*/
-.blurhash-canvas {
-	filter: opacity(60%) saturate(60%);
-}
-
 /*Dash and general UI styling*/
 .navMenuOption-selected, .selectionCommandsPanel {
     background: #101010 !important;
