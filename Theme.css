@@ -12,14 +12,6 @@
     height: auto !important;
 }
 
-/* Backdrop */
-.backgroundContainer {
-    background: url(https://i.imgur.com/dGBenC7.jpeg) center top no-repeat #030322;
-    -webkit-background-size: cover;
-    background-size: cover;
-	opacity: 0.2;
-}
-
 .itemsContainer.padded-left {
     position: top;
     z-index: 1;
@@ -352,10 +344,6 @@ progress::-webkit-progress-value {
   background: linear-gradient(140deg,#444,#111) !important;
 }
 
-/*Affects blurhash to remove the saturated colors to fit overall look*/
-.blurhash-canvas {
-	filter: opacity(60%) saturate(60%);
-}
 
 /*Dash and general UI styling*/
 .navMenuOption-selected, .selectionCommandsPanel {
@@ -1743,9 +1731,6 @@ progress::-webkit-progress-value {
     transform: scale(1.05);
     transition: transform 1s ease;
 }
-
-/*Style backdrop*/
-.backdropImage {filter: blur(0px) saturate(120%) contrast(130%) brightness(100%);}
 
 
 /* Center the listItem content */
